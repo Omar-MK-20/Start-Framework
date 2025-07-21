@@ -1,0 +1,136 @@
+.bg-dark-blue {
+  background-color: rgb(44, 62, 80);
+}
+
+.dark-blue {
+    color: rgb(44, 62, 80);
+}
+
+.bg-darker-blue {
+  background-color: rgb(26, 37, 47);
+}
+
+.bg-green {
+    background-color: rgb(26, 188, 156);
+}
+
+.green {
+    color: rgb(26, 188, 156);
+}
+
+.container {
+  transition: all 0.5s;
+}
+
+.card {
+  transition: all 1s;
+}
+
+.icon {
+  display: inline-flex;
+  border: 1px white solid;
+  border-radius: 50%;
+  transition: all 0.5s;
+  aspect-ratio: 1/1;
+  width: 37px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 4px;
+}
+
+.icon:hover {
+    background-color: white;
+    color: rgb(44, 62, 80);
+}
+
+.line {
+    display: inline-block;
+    width: 80px;
+    height: 4px;
+    /* background-color: white; */
+    /* border: 1px white solid; */
+    margin-top: 3px;
+}
+
+.home, .about, .contact, .error {
+    min-height: 90vh;
+}
+
+.avatarImg {
+    width: 250px;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+    .w-lg-50 {
+        width: 50% !important;
+    }
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+
+.label {
+    position: absolute;
+    top: 30px;
+    z-index: -1;
+    transition: all 0.6s;
+}
+
+.form-control:not(:placeholder-shown) + .label {
+    top: -15px;
+}
+
+.btn-green {
+    --bs-btn-color: #fff;
+    --bs-btn-bg:  rgb(26, 188, 156);
+    --bs-btn-border-color:  transparent;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg:  rgb(26, 188, 156);
+    --bs-btn-hover-border-color: transparent;
+    --bs-btn-focus-shadow-rgb: 60, 153, 110;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg:  rgb(26, 188, 156);
+    --bs-btn-active-border-color: none;
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg:  rgb(26, 188, 156);
+    --bs-btn-disabled-border-color:  rgb(26, 188, 156);
+    
+}
+
+.btn-green:active {
+    box-shadow: outset 0px 0px 10px 0px rgb(255, 255, 255);
+}
+
+.inner:hover > img {
+    position: relative;
+    opacity: 0.1;
+    transition: all 0.6s;
+}
+
+.inner > img {
+    transition: all 0.6s;
+}
+
+.plusTag {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    background-color: rgb(26, 188, 156);
+    opacity: 1;
+    transition: all 0.6s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .plusTag:hover {
+    opacity: 1;
+} */
