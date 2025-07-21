@@ -11,7 +11,7 @@ let router = createBrowserRouter(
     [
         {path:'/', Component:App, children:
             [
-                {path:'/', Component:Home},
+                {index:true, Component:Home},
                 {path:'about', Component:About},
                 {path:'portfolio', Component:Portfolio},
                 {path:'contact', Component:Contact},
