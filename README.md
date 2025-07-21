@@ -1,12 +1,83 @@
-# React + Vite
+# Start Framework
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React single-page application (SPA) built with Vite and Bootstrap, featuring a modern portfolio theme inspired by "Freelancer" from Route. The project demonstrates component-based architecture, routing, and custom styling.
 
-Currently, two official plugins are available:
+**This project is for educational purposes only.**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Home, About, Portfolio, Contact, and Error pages
+- Responsive layout with Bootstrap
+- FontAwesome icons
+- Custom CSS and component-based design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- React
+- Vite
+- Bootstrap 5
+- FontAwesome
+- JavaScript (ES6+)
+- CSS (custom and Bootstrap)
+- React Router
+
+## Project Structure
+
+```
+Start-Framework/
+│
+├── index.html                # Main HTML file
+├── README.md                 # Project documentation
+│
+├── src/                      # Source files
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   │
+│   ├── Components/           # React components
+│   │   ├── About/
+│   │   ├── Contact/
+│   │   ├── Error/
+│   │   ├── Home/
+│   │   └── Portfolio/
+│   │
+│   ├── Layout/               # Layout components
+│   │   ├── Copyright/
+│   │   ├── Footer/
+│   │   ├── NavBar/
+│   │   └── Star/
+│   │
+│   └── assets/               # App images and icons
+│       ├── avataaars.svg
+│       ├── port1.png
+│       ├── port2.png
+│       ├── port3.png
+│       └── react.svg
+│
+├── public/                   # Static files
+│   └── vite.svg
+│
+├── package.json              # Project metadata and dependencies
+├── package-lock.json         # Dependency lock file
+├── vite.config.js            # Vite configuration
+├── eslint.config.js          # ESLint configuration
+└── webfonts/                 # (If using Font Awesome webfonts)
+```
+
+## Getting Started
+
+1. Install dependencies:
+   ```
+   npm install
+   ```
+2. Start the development server:
+   ```
+   npm run dev
+   ```
+3. Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## License
+
+Free to use, based on the Route "Freelancer" Bootstrap theme.
+
+**This project is for educational purposes only.**
