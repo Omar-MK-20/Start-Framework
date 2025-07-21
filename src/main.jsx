@@ -18,6 +18,16 @@ let router = createBrowserRouter(
                 {path:'*', Component:Error}
             ]
         },
+        {path:'index.html', Component:App, children:
+            [
+                {index:true, Component:Home},
+                {path:'about', Component:About},
+                {path:'portfolio', Component:Portfolio},
+                {path:'contact', Component:Contact},
+                {path:'*', Component:Error}
+            ]
+        },
+        
     ]
 );
 
