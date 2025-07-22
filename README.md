@@ -28,6 +28,7 @@ Start-Framework/
 │
 ├── index.html                # Main HTML file
 ├── README.md                 # Project documentation
+├── vercel.json               # Vercel configuration for SPA routing
 │
 ├── src/                      # Source files
 │   ├── App.jsx
@@ -60,8 +61,7 @@ Start-Framework/
 ├── package.json              # Project metadata and dependencies
 ├── package-lock.json         # Dependency lock file
 ├── vite.config.js            # Vite configuration
-├── eslint.config.js          # ESLint configuration
-└── webfonts/                 # (If using Font Awesome webfonts)
+└── eslint.config.js          # ESLint configuration
 ```
 
 ## Getting Started
