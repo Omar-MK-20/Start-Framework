@@ -5,7 +5,7 @@ function Copyright() {
 
     <>
         <div className='bg-darker-blue py-2'>
-            <p className='text-light text-center pt-3'>Copyright © Your Website 2021</p>
+            <p className='text-light text-center pt-3'>Copyright © Created by Omar MK</p>
         </div>
     </>
   )
